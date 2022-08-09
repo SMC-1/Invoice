@@ -1,0 +1,95 @@
+/* Starter CSS code */
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: rgb(24, 24, 24);
+
+}
+
+header, footer {
+
+    background-color: burlywood;
+    padding: 5px 5px;
+    color:rgb(16, 16, 107)
+
+}
+
+h1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    text-align: right;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-stretch: expanded;
+    
+}
+
+.tagline {
+
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 3px;
+    font-style: italic;
+    margin-right: 10px;
+
+}
+
+.invoice {
+
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.invoice tr :first-child{
+
+    width: 50%;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.invoiceheader {
+
+    border-bottom: 2px black solid; 
+
+}
+
+.totalline {
+
+    background-color: beige;
+
+}
+
+.centered {
+
+    text-align: center;
+
+}
+
+#purchase {
+
+    width: 85%;
+    text-align: right;
+    margin: 10px auto;
+
+}
+
+.itemdetails {
+
+    margin: 10px 0px;
+
+}
+
+footer {
+
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    padding: 10px 0;
+
+}
